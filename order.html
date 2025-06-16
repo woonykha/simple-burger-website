@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+</head>
+<body style="background-color: aliceblue;">
+        <table>
+
+            <tr>
+                <td>
+
+                    <h1>
+                            <big>
+
+                                <big>
+                                    
+                                <span>
+                                    
+                                    🛒 Place Your Order
+                                </span>
+
+                                </big>
+
+                            </big>
+
+                    </h1>
+                    
+                </td>
+
+            </tr>
+
+        </table>
+
+        <hr style="height: 2px; background-color: black; width: 100%;">
+
+        <form action="submit.html" method="get">
+            <h2>Customer Information</h2>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Customer Name" required><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="+95 9" required><br><br>
+
+            <label for="address">Delivery Address:</label><br>
+            <textarea id="address" name="address" rows="3" cols="30" required></textarea><br>
+            <hr>
+            <h2>Choose your Burger</h2>
+
+            <input type="checkbox" id="classic" name="burger" value="Classic Stack">
+            <label for="classic">🍔 Classic Stack</label><br>
+
+            <input type="checkbox" id="spicy" name="burger" value="Spicy Sizzler">
+            <label for="spicy">🌶️ Spicy Sizzler</label><br>
+
+            <input type="checkbox" id="double" name="burger" value="Double Trouble">
+            <label for="double">🍔🍔 Double Trouble</label><br>
+
+            <input type="checkbox" id="veggie" name="burger" value="Veggie Blaze">
+            <label for="veggie">🥬 Veggie Blaze</label><br><br>
+            <hr>
+            <h2>Sides & Drinks</h2>
+
+            <input type="checkbox" id="fries" name="sides" value="Fries">
+            <label for="fries">🍟 Fries</label><br>
+
+                <input type="checkbox" id="cheesy" name="sides" value="Cheesy Fries">
+            <label for="cheesy">🧀 Cheesy Fries</label><br>
+
+            <input type="checkbox" id="soda" name="sides" value="Soft Drink">
+            <label for="soda">🥤 Soft Drink</label><br><br>
+
+            <label for="note">Special Instructions:</label><br>
+            <textarea id="note" name="note" rows="3" cols="30"></textarea><br><br>
+            
+            <input type="submit" value="Place Order">
+            <input type="reset" value="Clear Form">
+        </form>
+
+    <br>
+    <hr>
+        <a href="index.html" style="text-decoration: none;">
+            <button title="Home" style="font-size: 15px; border-radius: 10px;">
+                Home
+            </button>
+        </a>
+
+        &nbsp;
+        
+        <a href="contact.html" style="text-decoration: none;">
+            <button title="Contact" style="font-size: 15px; border-radius: 10px;">
+                Contact
+            </button>
+        </a>
+
+    </body>
+</html>
