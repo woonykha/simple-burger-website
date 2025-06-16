@@ -1,3 +1,5 @@
+## README.md
+
 1. Clone or download this repo.  
 2. Open `index.html` in your browser to view the site.  
 3. Navigate through the pages using the menu and buttons.  
